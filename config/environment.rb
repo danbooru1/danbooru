@@ -4,10 +4,10 @@ require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
   # Skip frameworks you're not going to use
-  config.frameworks -= [:action_web_service]
+  # config.frameworks -= [:action_web_service]
 
   # Add additional load paths for your own custom dirs
-  config.load_paths += ["#{RAILS_ROOT}/app/models/post", "#{RAILS_ROOT}/app/models/post/image_store"]
+  # config.load_paths += ["#{RAILS_ROOT}/app/models/post", "#{RAILS_ROOT}/app/models/post/image_store"]
 
   # Force all environments to use the same logger level
   # (by default production uses :info, the others :debug
